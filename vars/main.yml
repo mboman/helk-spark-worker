@@ -1,2 +1,8 @@
 ---
-# vars file for helk-spark-worker
+
+SPARK_MASTER: spark://helk-spark-master:7077
+SPARK_WORKER_MEMORY: 1g
+SPARK_WORKER_WEBUI_PORT: 8081
+SPARK_WORKER_PORT: 42950
+SPARK_USER: sparkuser
+SPARK_HOME: /opt/helk/spark

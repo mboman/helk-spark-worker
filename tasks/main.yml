@@ -1,2 +1,6 @@
 ---
-# tasks file for helk-spark-worker
+
+- name: Installing HELK Spark
+  copy:
+    src: spark-defaults.conf
+    dest: "{{SPARK_HOME}}/conf/"
